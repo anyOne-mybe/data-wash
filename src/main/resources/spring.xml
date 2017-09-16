@@ -18,8 +18,7 @@
 
 	<import resource="classpath:mybatis/spring-mybatis.xml" />
 	
-	<context:component-scan base-package="com.hrsj.demo.**">
-	</context:component-scan>
+	<context:component-scan base-package="com.guan.datastage.api.*.service.impl"/>
 
 	<import resource="classpath:cxf/cxf-services.xml" />
 
