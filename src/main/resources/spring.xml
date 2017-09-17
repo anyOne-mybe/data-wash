@@ -18,8 +18,11 @@
 
 	<import resource="classpath:mybatis/spring-mybatis.xml" />
 	
-	<context:component-scan base-package="com.guan.datastage.api.*.service.impl"/>
-
 	<import resource="classpath:cxf/cxf-services.xml" />
+	
+	<context:component-scan base-package="com.guan.datastage.api.*.facade.impl"/>
+	<context:component-scan base-package="com.guan.datastage.api.*.service.impl"/>
+	<context:component-scan base-package="com.guan.datastage.api.*.business.impl"/>
+
 
 </beans>
