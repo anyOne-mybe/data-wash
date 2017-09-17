@@ -12,7 +12,7 @@ import com.guan.datastage.api.customer.vo.AddResponse;
 public class CustomerBusinessImpl implements ICustomerBusiness
 {
 
-    @Inject
+    // @Inject
     private ICustomerElasticSearchClient customerElasticSearchClient;
 
     @Override
