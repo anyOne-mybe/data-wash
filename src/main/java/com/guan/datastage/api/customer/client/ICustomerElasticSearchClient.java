@@ -15,6 +15,6 @@ public interface ICustomerElasticSearchClient
 {
 
     @POST
-    @Path( "/" + ElasticSearchProperties.CUSTOMER_FULL_NAME_TYPE + "?pretty" )
+    @Path( "/" + ElasticSearchProperties.CUSTOMER_FULL_NAME_TYPE + "" )
     AddResponse addCustomer( Customer customer );
 }
